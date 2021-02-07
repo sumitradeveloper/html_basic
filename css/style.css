@@ -3,14 +3,32 @@ h1 {
     text-align: center;
 }
 
-.para1 {
-    width: 1100px;
-    margin: auto;
-    color: rgb(104, 100, 100);
+.para-style{
+    width: 100%;
+    font-size: 20px;
 }
 
-.para2 {
-    width: 1100px;
+.para-spc-style{
+    width: 50%;
+    font-size: 20px;
     margin: auto;
-    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.color-red{
+  color: #f00000;
+}
+.color-black{
+    color: #000000;
+}
+
+#separate{
+    color: #f00000;
+    font-size: 16px;
+}
+
+#separate span{
+    font-weight: bold;
+    color: #d2d2d2;
 }
